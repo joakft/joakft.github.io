@@ -1,5 +1,3 @@
-# Hi, I'm Joaquin Fernandez
-
 ---
 layout: home
 title: "Home"
