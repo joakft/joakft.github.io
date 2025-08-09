@@ -1,6 +1,8 @@
 # Hi, I'm Joaquin Fernandez
 
-See **Posts** below.
+---
+layout: home
+title: "Home"
+---
 
-- [About](/about)
-- [Posts](/posts)
+Welcome! Newest posts appear below.

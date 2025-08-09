@@ -1,5 +1,7 @@
 title: "Joaquin Fernandez Tapia"
 description: "Personal notes"
+url: "https://joakft.github.io"
+baseurl: ""            # must be empty for user sites
 theme: jekyll-theme-minimal   # a built-in GitHub Pages theme
 
 # <repo structure>/
@@ -10,4 +12,4 @@ theme: jekyll-theme-minimal   # a built-in GitHub Pages theme
 # ├─ assets/
 # │  ├─ img/              # images used in posts/pages
 # │  └─ css/              # optional custom CSS
-# └─ .gitignore           # ignore /_site when building locallys
+# └─ .gitignore           # ignore /_site when building locally
