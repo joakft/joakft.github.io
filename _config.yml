@@ -1,3 +1,13 @@
-title: "Joaquin Fernandez"
+title: "Joaquin Fernandez Tapia"
 description: "Personal notes"
 theme: jekyll-theme-minimal   # a built-in GitHub Pages theme
+
+# <repo structure>/
+# ├─ _config.yml          # site title, theme, (optional) url/baseurl
+# ├─ index.md             # homepage (your landing page)
+# ├─ posts.md             # simple list of posts (optional page)
+# ├─ _posts/              # blog posts: YYYY-MM-DD-title.md
+# ├─ assets/
+# │  ├─ img/              # images used in posts/pages
+# │  └─ css/              # optional custom CSS
+# └─ .gitignore           # ignore /_site when building locallys
