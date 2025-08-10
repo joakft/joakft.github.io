@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
   %% Big-picture architecture (no internal details)
 
@@ -55,3 +56,4 @@ flowchart LR
   API -.optional read/.-> S3
   API --> LOGS
   USER <---> API
+```

@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
   %% Big-picture ML system (4 services) with shared contracts and artifact flow
 
@@ -32,3 +33,4 @@ flowchart LR
   classDef dashed stroke-dasharray: 4 4
   linkStyle 5 stroke-dasharray: 4 4
   linkStyle 6 stroke-dasharray: 4 4
+```
