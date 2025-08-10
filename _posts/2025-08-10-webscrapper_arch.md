@@ -1,20 +1,23 @@
 {% include mermaid.html %}
 
-<pre class="mermaid">
+```mermaid
 flowchart LR
 
+  %% Control Plane
   subgraph Control["Control & Scheduling"]
-    EV["Event Trigger<br>• Cron (local)<br>• EventBridge (AWS)"]
-    CI["Image Registry<br>• ECR/GHCR"]
-    SM["Secrets<br>• .env (local)<br>• AWS Secrets Manager"]
+    EV["Event Trigger\n• Cron (local)\n• EventBridge (AWS)"]
+    CI["Image Registry\n• ECR/GHCR"]
+    SM["Secrets\n• .env (local)\n• AWS Secrets Manager"]
   end
 
+  %% Compute Plane
   subgraph Compute["Compute (Containerized)"]
-    ST["Scraper Task<br>(Python ETL)"]
-    SEL["Selenium Browser<br>(headless Chrome)"]
-    API["FastAPI UI<br>(list & delete)"]
+    ST["Scraper Task\n(Python ETL)"]
+    SEL["Selenium Browser\n(headless Chrome)"]
+    API["FastAPI UI\n(list & delete)"]
   end
 
+  %% External Sources
   subgraph Sources["External Data Sources"]
     GOV["Gov/Open Data APIs"]
     MAPS["Google Maps API"]
@@ -22,16 +25,19 @@ flowchart LR
     THESIS["Thesis Portals/Web"]
   end
 
+  %% Storage & Observability
   subgraph Storage["Storage & Observability"]
-    S3["Raw Store<br>• Local FS (dev)<br>• S3 (prod)"]
-    DB["Processed DB<br>• SQLite (dev)<br>• RDS/DynamoDB (prod)"]
-    LOGS["Logs/Monitoring<br>• Docker logs (dev)<br>• CloudWatch (prod)"]
+    S3["Raw Store\n• Local FS (dev)\n• S3 (prod)"]
+    DB["Processed DB\n• SQLite (dev)\n• RDS/DynamoDB (prod)"]
+    LOGS["Logs/Monitoring\n• Docker logs (dev)\n• CloudWatch (prod)"]
   end
 
+  %% Users
   subgraph Consumers["Consumers"]
-    USER["User/Admin<br>(browser)"]
+    USER["User/Admin\n(browser)"]
   end
 
+  %% Flows
   EV --> ST
   CI --> ST
   SM --> ST
@@ -48,7 +54,7 @@ flowchart LR
   ST --> LOGS
 
   API --> DB
-  API -.optional read/.-> S3
+  API -.->|optional read| S3
   API --> LOGS
   USER <---> API
-</pre>
+```
