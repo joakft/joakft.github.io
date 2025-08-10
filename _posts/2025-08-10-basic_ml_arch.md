@@ -1,4 +1,7 @@
-{% include mermaid.html %}
+---
+layout: page
+title: "Mermaid test"
+---
 
 ```mermaid
 flowchart LR

@@ -1,4 +1,30 @@
+<!-- Load Mermaid and transform ```mermaid fences into <div class="mermaid"> -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
+
+  // Don’t auto-run; we’ll run after we convert code fences.
+  mermaid.initialize({ startOnLoad: false });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // Convert GitHub/Jekyll’s <pre><code class="language-mermaid">...</code></pre>
+    // into <div class="mermaid">...</div> so Mermaid can render them.
+    document.querySelectorAll('code.language-mermaid').forEach((codeEl) => {
+      const pre = codeEl.parentElement;
+      const container = document.createElement('div');
+      container.className = 'mermaid';
+      container.textContent = codeEl.textContent; // keep raw text
+      pre.replaceWith(container);
+    });
+
+    // Also support <pre class="mermaid">...</pre> blocks (if you ever use them)
+    document.querySelectorAll('pre.mermaid').forEach((pre) => {
+      const container = document.createElement('div');
+      container.className = 'mermaid';
+      container.textContent = pre.textContent;
+      pre.replaceWith(container);
+    });
+
+    // Now render all collected diagrams
+    mermaid.run();
+  });
 </script>
