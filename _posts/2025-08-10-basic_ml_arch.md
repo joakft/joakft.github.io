@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Mermaid test"
+title: "ML architecture base"
 ---
 
 ```mermaid
