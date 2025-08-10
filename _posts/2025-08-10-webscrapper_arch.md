@@ -1,3 +1,5 @@
+{% include mermaid.html %}
+
 ```mermaid
 flowchart LR
   %% Big-picture architecture (no internal details)

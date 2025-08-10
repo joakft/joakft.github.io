@@ -1,3 +1,5 @@
+{% include mermaid.html %}
+
 ```mermaid
 flowchart LR
   %% Big-picture ML system (4 services) with shared contracts and artifact flow
