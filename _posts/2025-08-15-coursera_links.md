@@ -27,3 +27,4 @@ description: "Random list of interesting courses"
 * https://www.coursera.org/specializations/data-design-operational-business-intellegence
 * https://www.coursera.org/specializations/python-data-engineering
 * https://www.coursera.org/specializations/reproducible-science
+* https://www.coursera.org/specializations/firstprinciplesofcomputervision
