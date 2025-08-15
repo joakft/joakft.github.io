@@ -22,3 +22,7 @@ description: "Random list of interesting courses"
 * https://www.coursera.org/specializations/spacecraft-dynamics-control
 * https://www.coursera.org/specializations/flight-mechanics-fundamentals
 * https://www.coursera.org/specializations/advanced-spacecraft-dynamics-control
+* https://www.coursera.org/specializations/aws-fundamentals
+* https://www.coursera.org/specializations/devops-ai-aws
+* https://www.coursera.org/specializations/data-design-operational-business-intellegence
+* https://www.coursera.org/specializations/python-data-engineering
