@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Your Name"
+  site-url: https://yourusername.github.io/my-quarto-site
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: pubs.qmd
+        text: Publications
+      - href: _posts/
+        text: Blog
+      - href: _notes/
+        text: Notes
+      - href: _book/
+        text: Book Project
+    right:
+      - icon: github
+        href: https://github.com/yourusername
+      - icon: linkedin
+        href: https://linkedin.com/in/yourusername
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    highlight-style: github

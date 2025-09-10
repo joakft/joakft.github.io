@@ -1,0 +1,15 @@
+---
+title: "Welcome"
+---
+
+# 👋 Welcome
+
+Hi, I’m **Your Name**.  
+
+This site blends my **professional research** with **personal reflections**:
+
+- 📚 Research in finance, stochastic control, ML  
+- 📝 Writings on AI, strategy, decision systems  
+- ✒️ Drafts for ongoing book projects  
+
+Start exploring: [Blog](./_posts/), [Notes](./_notes/), [Publications](./pubs.qmd).
