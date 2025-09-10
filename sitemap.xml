@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://joakft.github.io/cv.html</loc>
-    <lastmod>2025-09-10T23:25:38.906Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joakft.github.io/old/posts.html</loc>
-    <lastmod>2025-09-10T23:25:38.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joakft.github.io/old/index.html</loc>
-    <lastmod>2025-09-10T23:25:38.908Z</lastmod>
+    <lastmod>2025-09-10T23:55:07.560Z</lastmod>
   </url>
   <url>
     <loc>https://joakft.github.io/index.html</loc>
-    <lastmod>2025-09-10T23:25:38.906Z</lastmod>
+    <lastmod>2025-09-10T23:55:07.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joakft.github.io/old/index.html</loc>
+    <lastmod>2025-09-10T23:55:07.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joakft.github.io/old/posts.html</loc>
+    <lastmod>2025-09-10T23:55:07.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joakft.github.io/introduction.html</loc>
+    <lastmod>2025-09-10T23:55:07.560Z</lastmod>
   </url>
 </urlset>

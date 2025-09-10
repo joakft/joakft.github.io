@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Joaquin Fernandez Tapia">
+<meta name="dcterms.date" content="2025-09-10">
 
-<title>posts – Your Name</title>
+<title>Decisions as the Next Frontier of Software – Your Name</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Your Name</span>
     </a>
   </div>
@@ -89,15 +91,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv.html"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../introduction.html"> 
+    <a class="nav-link active" href="./introduction.html" aria-current="page"> 
 <span class="menu-text">Intro</span></a>
   </li>  
 </ul>
@@ -123,25 +125,113 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#why-decisions-are-the-new-unit-of-management" id="toc-why-decisions-are-the-new-unit-of-management" class="nav-link" data-scroll-target="#why-decisions-are-the-new-unit-of-management"><span class="header-section-number">2</span> Why Decisions Are the New Unit of Management</a></li>
+  <li><a href="#what-this-looks-like-in-practice" id="toc-what-this-looks-like-in-practice" class="nav-link" data-scroll-target="#what-this-looks-like-in-practice"><span class="header-section-number">3</span> What This Looks Like in Practice</a></li>
+  <li><a href="#the-consistent-pattern" id="toc-the-consistent-pattern" class="nav-link" data-scroll-target="#the-consistent-pattern"><span class="header-section-number">4</span> The Consistent Pattern</a></li>
+  <li><a href="#closing-thought" id="toc-closing-thought" class="nav-link" data-scroll-target="#closing-thought"><span class="header-section-number">5</span> Closing Thought</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Decisions as the Next Frontier of Software</h1>
+</div>
 
 
 
-<hr>
-<p>layout: page<br>
-title: “All Posts”<br>
-permalink: /posts/</p>
-<hr>
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Joaquin Fernandez Tapia </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 10, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>Technology evolves by shifting the bottleneck. Each generation of tools solves one constraint, only to reveal the next.</p>
 <ul>
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: “%Y-%m-%d” }}</li>
+<li>In the era of <strong>software engineering</strong>, the challenge was making programs reliable and deployable at scale. Practices like automated testing, version control, and continuous integration turned fragile code into something industrial.<br>
+</li>
+<li>With the rise of <strong>machine learning</strong>, the challenge became managing data and models across their lifecycle. The response was pipelines and monitoring that allowed models to be deployed and updated reliably, not just prototyped in notebooks.</li>
 </ul>
+<p>Now, with the surge of <strong>AI and foundation models</strong>, we face another shift. The bottleneck is no longer writing software or even building models — those are increasingly commoditized. The bottleneck is how to <strong>manage decisions</strong>: how to orchestrate models, rules, and human input into reliable, adaptive, and auditable systems.</p>
+</section>
+<section id="why-decisions-are-the-new-unit-of-management" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Why Decisions Are the New Unit of Management</h1>
+<p>Every important business outcome comes down to decisions: approving a transaction, setting a price, ranking a product, showing a recommendation. These decisions are made not by a single model, but by an interconnected system of data pipelines, predictive components, business constraints, and feedback loops.</p>
+<p>The question for the next decade is: how do we make these <strong>decision systems as manageable as software has become</strong>?</p>
+<p>That means:</p>
+<ul>
+<li><strong>Automation:</strong> Decisions need pipelines, not manual interventions.<br>
+</li>
+<li><strong>Orchestration:</strong> Multiple intelligent artifacts — models, rules, heuristics — must work together coherently.<br>
+</li>
+<li><strong>Adaptability:</strong> With AI in the loop, decisions should evolve continuously as data and environments change.<br>
+</li>
+<li><strong>Trustworthiness:</strong> Every decision should be explainable and auditable, not an opaque black box.<br>
+</li>
+<li><strong>Manageability:</strong> Complexity must be tamed through modular design, observability, and reproducibility.</li>
+</ul>
+</section>
+<section id="what-this-looks-like-in-practice" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> What This Looks Like in Practice</h1>
+<ul>
+<li><strong>Built-in experimentation:</strong> Any change to a decision process is tested, measured, and rolled back if necessary, the way code deployments are managed today.<br>
+</li>
+<li><strong>Continuous feedback:</strong> Each decision feeds back into the system, enabling rapid adaptation rather than periodic retraining.<br>
+</li>
+<li><strong>Governance by design:</strong> Logs, explanations, and audits are first-class outputs, not afterthoughts.<br>
+</li>
+<li><strong>Optimization under constraints:</strong> Methods like bandits, reinforcement learning, or simulation are applied to balance exploration and exploitation, revenue and risk, short-term and long-term effects.<br>
+</li>
+<li><strong>Operational rigor:</strong> Latency, cost-per-decision, and quality are tracked with the same discipline we apply to uptime and error rates in software systems.</li>
+</ul>
+</section>
+<section id="the-consistent-pattern" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> The Consistent Pattern</h1>
+<p>Across each wave, the value shifted:</p>
+<ul>
+<li><strong>Software:</strong> The problem was deployment and reliability → the solution was DevOps.<br>
+</li>
+<li><strong>Models:</strong> The problem was managing the data and model lifecycle → the solution was MLOps.<br>
+</li>
+<li><strong>Decisions:</strong> The problem now is managing complexity, adaptability, and trust at the level of decisions → the solution is to treat decisions themselves as software artifacts, subject to automation, orchestration, and governance.</li>
+</ul>
+</section>
+<section id="closing-thought" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Closing Thought</h1>
+<p>The AI wave makes this shift urgent. As models become cheap and abundant, what will differentiate organizations is not who has the biggest model, but who can <strong>build decision systems that are fast, adaptive, and trustworthy</strong>.</p>
+<p>In other words, the future is not just about better models. It’s about <strong>making decisions themselves software-like</strong>: automated, orchestrated, continuously improving, and never spiraling out of control.</p>
+<p>That is where the next decade of value will come from.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
