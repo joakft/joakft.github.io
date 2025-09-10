@@ -12,46 +12,45 @@ date: "2025-09-10"
 ---
 
 # Summary
-PhD in Applied Mathematics with 10+ years of experience building **ML-driven decision systems** across fintech, advertising, and financial markets. Specialized in bridging **research and production**, with focus on:
-- Orchestrated platforms integrating models, rules, and business policies
-- Real-time feedback loops enabling continuous learning
-- Governance-first design for auditable, business-aligned AI
-
-Proven track record of delivering impact in **fraud prevention, identity verification, credit risk, trading optimization, and large-scale advertising**, ensuring systems are reproducible, explainable, and aligned with business needs.
+PhD in Applied Mathematics with 10+ years of experience architecting data-driven decision systems across fintech, advertising, and markets. Proven ability to design platforms that integrate analytics, machine learning, and business rules into scalable, auditable workflows. Experienced leading analytics initiatives (experimentation, causal inference, optimization) and ML platform development (pipelines, orchestration, governance). Focused on building systems that are explainable, reproducible, and aligned with business impact.
 
 ---
 
 # Core Strengths
-- **Analytical Foundations:** Statistics, optimization, stochastic control, decision theory  
-- **ML Systems:** Real-time ML pipelines, decision automation, composable models  
-- **Governance & Standards:** Experimentation, reproducibility, auditable architectures  
-- **Leadership & Translation:** Bridging research and production; mentoring; executive alignment  
+- **Decision Architecture & Orchestration:** Real-time pipelines, closed-loop feedback, composable models.
+- **Experimentation & Causal Analysis:** A/B testing, uplift modeling, causal inference.
+- **Governance & Reproducibility:** Explainability, fairness, reproducible workflows, versioning.
+- **Optimization & Policy Design:** Advanced statistics, decision theory, reinforcement learning, bandits.
+- **Leadership & Influence:** Mentoring, cross-team standards, exec alignment on decisioning strategies.
 
 ---
 
 # Experience
 
+
+
 ## Nubank — Data Science Lead & Business Analytics Manager (2019–Present)
-**Fraud & Collections Decision Analytics**  
+
+**Fraud Platforms (Decision Intelligence) (2024-Present)**  
+- Designed streaming pipelines and modular ML-driven decision systems serving 100M+ clients.  
+- Developed orchestrated fraud defenses combining models, rules, and business guardrails.  
+- Built feedback-loop evaluation frameworks enabling continuous learning and proactive detection.  
+- Defined standards for reproducibility, experimentation, and governance; mentored DS/analytics teams.  
+
+**Fraud & Collections Business Analytics (2020-2023)**  
 - Led policy design for fraud defenses and KYC identity verification (1.5M+ applications/month).  
 - Balanced decision trade-offs across risk, customer experience, and operations.  
 - Introduced uplift modeling for collections and agency optimization.  
 - Embedded experimentation into debt recovery and credit risk decisioning.  
 
-**ML Decision Platforms**  
-- Designed streaming pipelines and **modular ML-driven decision systems** serving 100M+ clients.  
-- Developed orchestrated fraud defenses combining models, rules, and business guardrails.  
-- Built feedback-loop evaluation frameworks enabling continuous learning and proactive detection.  
-- Defined standards for reproducibility, experimentation, and governance; mentored DS/analytics teams.  
-
 ## HSBC — Quantitative Researcher, Trading & Market Microstructure (2017–2019)
-- Designed **reinforcement learning algorithms** for portfolio execution and liquidation strategies.  
-- Modeled order-book dynamics with deep learning and statistical methods.  
-- Delivered simulation-driven validation of trading policies under real-time constraints.  
+- Designed reinforcement learning algorithms for portfolio execution and liquidation strategies.  
+- Sysnthetic data generation with deep learning for scenario simulation.  
+- Optimization of hedging algorithms with stochastic control methods. 
 
 ## Tradelab — Optimization Scientist/Engineer, Ad-Tech (2014–2016)
-- Developed **bandit-based bidding algorithms** for pacing, win-rate optimization, and ROI.  
-- Contributed to **low-latency RTB platforms** executing millions of auctions/second.  
+- Developed bandit-based bidding algorithms for pacing, win-rate optimization, and ROI.  
+- Contributed to low-latency RTB platforms executing millions of auctions/second.  
 - Translated theoretical optimization policies into production-ready systems.  
 
 ---
@@ -78,10 +77,3 @@ Proven track record of delivering impact in **fraud prevention, identity verific
 - **Visualization:** Tableau, matplotlib, seaborn, plotly  
 - **ML/AI:** Bandits, RL, supervised/unsupervised ML, embeddings, TensorFlow, Keras  
 - **Methods:** A/B testing, causal inference, attribution, anomaly detection  
-
----
-
-# Current Focus
-- **Feature store parity & data contracts**  
-- **Offline RL and OPE validation**  
-- **Security & compliance for decision platforms (DSAR, SBOM, SLSA)**
