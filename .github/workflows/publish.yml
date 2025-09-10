@@ -2,7 +2,7 @@ name: Quarto Publish
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" ]   # or "master" if that's your default
 
 jobs:
   build-deploy:
@@ -19,10 +19,7 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: stable
-
-      - name: Install LaTeX (for PDF rendering, optional)
-        run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+          version: latest   # ✅ FIXED
 
       - name: Render site
         run: quarto render
