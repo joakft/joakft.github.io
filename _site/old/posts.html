@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>All Posts – Your Name</title>
+<title>posts – Your Name</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,22 +96,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../pubs.qmd"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../_posts/"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../_notes/"> 
-<span class="menu-text">Notes</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../_book/"> 
-<span class="menu-text">Book Project</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -139,33 +123,18 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">All Posts</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<hr>
+<p>layout: page<br>
+title: “All Posts”<br>
+permalink: /posts/</p>
+<hr>
 <ul>
-{% for post in site.posts %}
-<li>
-<a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span> — {{ post.date | date: “%Y-%m-%d” }}</span>
-</li>
-{% endfor %}
+<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: “%Y-%m-%d” }}</li>
 </ul>
 
 

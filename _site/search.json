@@ -9,9 +9,9 @@
   {
     "objectID": "old/posts.html",
     "href": "old/posts.html",
-    "title": "All Posts",
+    "title": "Your Name",
     "section": "",
-    "text": "{% for post in site.posts %}\n\n{{ post.title }}  — {{ post.date | date: “%Y-%m-%d” }}\n\n{% endfor %}"
+    "text": "layout: page\ntitle: “All Posts”\npermalink: /posts/\n\n\n{{ post.title }} — {{ post.date | date: “%Y-%m-%d” }}"
   },
   {
     "objectID": "old/index.html",
