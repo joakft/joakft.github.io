@@ -12,4 +12,4 @@ This site blends my **professional research** with **personal reflections**:
 - 📝 Writings on AI, strategy, decision systems  
 - ✒️ Drafts for ongoing book projects  
 
-Start exploring: [Blog](./_posts/), [Notes](./_notes/), [Publications](./pubs.qmd).
+Start exploring: [Blog](./_posts/), [Notes](./_notes/), [Publications](./pubs.qmd), [CV](./cv.qmd).
