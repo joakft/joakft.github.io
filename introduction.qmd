@@ -1,0 +1,58 @@
+---
+title: "Decisions as the Next Frontier of Software"
+author: "Joaquin Fernandez Tapia"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+---
+
+# Introduction
+
+Technology evolves by shifting the bottleneck. Each generation of tools solves one constraint, only to reveal the next.  
+
+- In the era of **software engineering**, the challenge was making programs reliable and deployable at scale. Practices like automated testing, version control, and continuous integration turned fragile code into something industrial.  
+- With the rise of **machine learning**, the challenge became managing data and models across their lifecycle. The response was pipelines and monitoring that allowed models to be deployed and updated reliably, not just prototyped in notebooks.  
+
+Now, with the surge of **AI and foundation models**, we face another shift. The bottleneck is no longer writing software or even building models — those are increasingly commoditized. The bottleneck is how to **manage decisions**: how to orchestrate models, rules, and human input into reliable, adaptive, and auditable systems.  
+
+# Why Decisions Are the New Unit of Management
+
+Every important business outcome comes down to decisions: approving a transaction, setting a price, ranking a product, showing a recommendation. These decisions are made not by a single model, but by an interconnected system of data pipelines, predictive components, business constraints, and feedback loops.  
+
+The question for the next decade is: how do we make these **decision systems as manageable as software has become**?  
+
+That means:  
+
+- **Automation:** Decisions need pipelines, not manual interventions.  
+- **Orchestration:** Multiple intelligent artifacts — models, rules, heuristics — must work together coherently.  
+- **Adaptability:** With AI in the loop, decisions should evolve continuously as data and environments change.  
+- **Trustworthiness:** Every decision should be explainable and auditable, not an opaque black box.  
+- **Manageability:** Complexity must be tamed through modular design, observability, and reproducibility.  
+
+# What This Looks Like in Practice
+
+- **Built-in experimentation:** Any change to a decision process is tested, measured, and rolled back if necessary, the way code deployments are managed today.  
+- **Continuous feedback:** Each decision feeds back into the system, enabling rapid adaptation rather than periodic retraining.  
+- **Governance by design:** Logs, explanations, and audits are first-class outputs, not afterthoughts.  
+- **Optimization under constraints:** Methods like bandits, reinforcement learning, or simulation are applied to balance exploration and exploitation, revenue and risk, short-term and long-term effects.  
+- **Operational rigor:** Latency, cost-per-decision, and quality are tracked with the same discipline we apply to uptime and error rates in software systems.  
+
+# The Consistent Pattern
+
+Across each wave, the value shifted:  
+
+- **Software:** The problem was deployment and reliability → the solution was DevOps.  
+- **Models:** The problem was managing the data and model lifecycle → the solution was MLOps.  
+- **Decisions:** The problem now is managing complexity, adaptability, and trust at the level of decisions → the solution is to treat decisions themselves as software artifacts, subject to automation, orchestration, and governance.  
+
+# Closing Thought
+
+The AI wave makes this shift urgent. As models become cheap and abundant, what will differentiate organizations is not who has the biggest model, but who can **build decision systems that are fast, adaptive, and trustworthy**.  
+
+In other words, the future is not just about better models. It’s about **making decisions themselves software-like**: automated, orchestrated, continuously improving, and never spiraling out of control.  
+
+That is where the next decade of value will come from.  

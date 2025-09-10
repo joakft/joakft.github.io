@@ -7,7 +7,7 @@ date: "2025-09-10"
 - Email: jfernandez@melix.net  
 - GitHub: github.com/joakft  
 - LinkedIn: linkedin.com/in/joaquinfernandez  
-- Location: São Paulo, Brazil | Open to relocation (France/EU)
+- Location: São Paulo, Brazil
 
 ---
 
