@@ -1,0 +1,91 @@
+---
+title: "Joaquín Fernández Tapia"
+date: "2025-09-10"
+format:
+  pdf:
+    toc: false
+    number-sections: false
+---
+
+# Contact
+- Email: jfernandez@melix.net  
+- GitHub: github.com/joakft  
+- LinkedIn: linkedin.com/in/joaquinfernandez  
+- Location: São Paulo, Brazil | Open to relocation (France/EU)
+
+---
+
+# Summary
+PhD in Applied Mathematics with 10+ years of experience building **ML-driven decision systems** across fintech, advertising, and financial markets. Specialized in bridging **research and production**, with focus on:
+- Orchestrated platforms integrating models, rules, and business policies
+- Real-time feedback loops enabling continuous learning
+- Governance-first design for auditable, business-aligned AI
+
+Proven track record of delivering impact in **fraud prevention, identity verification, credit risk, trading optimization, and large-scale advertising**, ensuring systems are reproducible, explainable, and aligned with business needs.
+
+---
+
+# Core Strengths
+- **Analytical Foundations:** Statistics, optimization, stochastic control, decision theory  
+- **ML Systems:** Real-time ML pipelines, decision automation, composable models  
+- **Governance & Standards:** Experimentation, reproducibility, auditable architectures  
+- **Leadership & Translation:** Bridging research and production; mentoring; executive alignment  
+
+---
+
+# Experience
+
+## Nubank — Data Science Lead & Business Analytics Manager (2019–Present)
+**Fraud & Collections Decision Analytics**  
+- Led policy design for fraud defenses and KYC identity verification (1.5M+ applications/month).  
+- Balanced decision trade-offs across risk, customer experience, and operations.  
+- Introduced uplift modeling for collections and agency optimization.  
+- Embedded experimentation into debt recovery and credit risk decisioning.  
+
+**ML Decision Platforms**  
+- Designed streaming pipelines and **modular ML-driven decision systems** serving 100M+ clients.  
+- Developed orchestrated fraud defenses combining models, rules, and business guardrails.  
+- Built feedback-loop evaluation frameworks enabling continuous learning and proactive detection.  
+- Defined standards for reproducibility, experimentation, and governance; mentored DS/analytics teams.  
+
+## HSBC — Quantitative Researcher, Trading & Market Microstructure (2017–2019)
+- Designed **reinforcement learning algorithms** for portfolio execution and liquidation strategies.  
+- Modeled order-book dynamics with deep learning and statistical methods.  
+- Delivered simulation-driven validation of trading policies under real-time constraints.  
+
+## Tradelab — Optimization Scientist/Engineer, Ad-Tech (2014–2016)
+- Developed **bandit-based bidding algorithms** for pacing, win-rate optimization, and ROI.  
+- Contributed to **low-latency RTB platforms** executing millions of auctions/second.  
+- Translated theoretical optimization policies into production-ready systems.  
+
+---
+
+# Education
+- **PhD in Stochastic Control & Optimization** — Université Pierre et Marie Curie, Paris  
+  Supervised by Gilles Pagès & Charles-Albert Lehalle  
+- **Engineering & MSc in Quantitative Finance** — École Polytechnique, Paris  
+- **BSc in Mathematics** — Pontificia Universidad Católica de Chile, Santiago  
+
+---
+
+# Selected Publications
+- *Optimal Real-Time Bidding Strategies* — foundational framework for ad-tech decisioning  
+- *Real-Time Bidding Strategies with Online Learning* — bandit-based approach to RTB  
+- *Analytical Solution to the Budget-Pacing Problem* — ROI vs spend optimization  
+- Full list: [Google Scholar](https://scholar.google.com/citations?user=2DscEkAAAAAJ)  
+
+---
+
+# Technical Toolkit
+- **Languages:** SQL, Python (pandas, numpy, sklearn, statsmodels, PySpark)  
+- **Data Systems:** Snowflake, Airflow, DBT, Git  
+- **Visualization:** Tableau, matplotlib, seaborn, plotly  
+- **ML/AI:** Bandits, RL, supervised/unsupervised ML, embeddings, TensorFlow, Keras  
+- **Methods:** A/B testing, causal inference, attribution, anomaly detection  
+
+---
+
+# Current Focus
+- **Feature store parity & data contracts**  
+- **Offline RL and OPE validation**  
+- **Security & compliance for decision platforms (DSAR, SBOM, SLSA)**
