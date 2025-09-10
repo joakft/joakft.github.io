@@ -2,11 +2,13 @@ name: Quarto Publish
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" ]   # or master, if that's your default
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -15,7 +17,7 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: 1.5.57
+          version: 1.5.57   # pin to a known version
 
       - name: Render site
         run: quarto render
@@ -24,4 +26,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site   # ✅ publish only site contents
+          publish_dir: ./_site    # ✅ only publish contents
