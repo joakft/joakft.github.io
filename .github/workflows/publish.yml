@@ -19,7 +19,7 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: latest   # ✅ FIXED
+          version: 1.5.57   # ✅ fixed, no more 404
 
       - name: Render site
         run: quarto render
