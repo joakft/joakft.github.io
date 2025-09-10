@@ -8,14 +8,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: pubs.qmd
-        text: Publications
-      - href: _posts/
-        text: Blog
-      - href: _notes/
-        text: Notes
-      - href: _book/
-        text: Book Project
     right:
       - icon: github
         href: https://github.com/yourusername
