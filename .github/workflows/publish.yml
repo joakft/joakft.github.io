@@ -2,7 +2,7 @@ name: Quarto Publish
 
 on:
   push:
-    branches: [ "main" ]   # or master, if that's your default
+    branches: [ "main" ]   # change to "master" if your default branch is master
 
 jobs:
   build-deploy:
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: 1.5.57   # pin to a known version
+          version: 1.5.57   # stable release
 
       - name: Render site
         run: quarto render
@@ -26,4 +26,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site    # ✅ only publish contents
+          publish_dir: _site   # ✅ this takes files inside _site/ and puts them at branch root
