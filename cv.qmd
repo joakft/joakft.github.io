@@ -1,10 +1,6 @@
 ---
 title: "Joaquín Fernández Tapia"
 date: "2025-09-10"
-format:
-  pdf:
-    toc: false
-    number-sections: false
 ---
 
 # Contact
