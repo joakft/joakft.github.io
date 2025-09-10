@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://joakft.github.io/index.html</loc>
-    <lastmod>2025-09-10T02:21:23.890Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joakft.github.io/old/index.html</loc>
-    <lastmod>2025-09-10T02:21:23.892Z</lastmod>
+    <loc>https://joakft.github.io/cv.html</loc>
+    <lastmod>2025-09-10T17:58:54.211Z</lastmod>
   </url>
   <url>
     <loc>https://joakft.github.io/old/posts.html</loc>
-    <lastmod>2025-09-10T02:21:23.892Z</lastmod>
+    <lastmod>2025-09-10T17:58:54.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joakft.github.io/old/index.html</loc>
+    <lastmod>2025-09-10T17:58:54.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joakft.github.io/index.html</loc>
+    <lastmod>2025-09-10T17:58:54.211Z</lastmod>
   </url>
 </urlset>

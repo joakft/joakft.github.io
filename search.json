@@ -1,10 +1,38 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Joaquín Fernández Tapia",
     "section": "",
-    "text": "👋 Welcome\nHi, I’m Your Name.\nThis site blends my professional research with personal reflections:\n\n📚 Research in finance, stochastic control, ML\n\n📝 Writings on AI, strategy, decision systems\n\n✒️ Drafts for ongoing book projects\n\nStart exploring: Blog, Notes, Publications."
+    "text": "Email: jfernandez@melix.net\n\nGitHub: github.com/joakft\n\nLinkedIn: linkedin.com/in/joaquinfernandez\n\nLocation: São Paulo, Brazil | Open to relocation (France/EU)"
+  },
+  {
+    "objectID": "cv.html#nubank-data-science-lead-business-analytics-manager-2019present",
+    "href": "cv.html#nubank-data-science-lead-business-analytics-manager-2019present",
+    "title": "Joaquín Fernández Tapia",
+    "section": "Nubank — Data Science Lead & Business Analytics Manager (2019–Present)",
+    "text": "Nubank — Data Science Lead & Business Analytics Manager (2019–Present)\nFraud & Collections Decision Analytics\n- Led policy design for fraud defenses and KYC identity verification (1.5M+ applications/month).\n- Balanced decision trade-offs across risk, customer experience, and operations.\n- Introduced uplift modeling for collections and agency optimization.\n- Embedded experimentation into debt recovery and credit risk decisioning.\nML Decision Platforms\n- Designed streaming pipelines and modular ML-driven decision systems serving 100M+ clients.\n- Developed orchestrated fraud defenses combining models, rules, and business guardrails.\n- Built feedback-loop evaluation frameworks enabling continuous learning and proactive detection.\n- Defined standards for reproducibility, experimentation, and governance; mentored DS/analytics teams."
+  },
+  {
+    "objectID": "cv.html#hsbc-quantitative-researcher-trading-market-microstructure-20172019",
+    "href": "cv.html#hsbc-quantitative-researcher-trading-market-microstructure-20172019",
+    "title": "Joaquín Fernández Tapia",
+    "section": "HSBC — Quantitative Researcher, Trading & Market Microstructure (2017–2019)",
+    "text": "HSBC — Quantitative Researcher, Trading & Market Microstructure (2017–2019)\n\nDesigned reinforcement learning algorithms for portfolio execution and liquidation strategies.\n\nModeled order-book dynamics with deep learning and statistical methods.\n\nDelivered simulation-driven validation of trading policies under real-time constraints."
+  },
+  {
+    "objectID": "cv.html#tradelab-optimization-scientistengineer-ad-tech-20142016",
+    "href": "cv.html#tradelab-optimization-scientistengineer-ad-tech-20142016",
+    "title": "Joaquín Fernández Tapia",
+    "section": "Tradelab — Optimization Scientist/Engineer, Ad-Tech (2014–2016)",
+    "text": "Tradelab — Optimization Scientist/Engineer, Ad-Tech (2014–2016)\n\nDeveloped bandit-based bidding algorithms for pacing, win-rate optimization, and ROI.\n\nContributed to low-latency RTB platforms executing millions of auctions/second.\n\nTranslated theoretical optimization policies into production-ready systems."
+  },
+  {
+    "objectID": "old/posts.html",
+    "href": "old/posts.html",
+    "title": "Your Name",
+    "section": "",
+    "text": "layout: page\ntitle: “All Posts”\npermalink: /posts/\n\n\n{{ post.title }} — {{ post.date | date: “%Y-%m-%d” }}"
   },
   {
     "objectID": "old/index.html",
@@ -14,10 +42,10 @@
     "text": "Welcome! Newest posts appear below."
   },
   {
-    "objectID": "old/posts.html",
-    "href": "old/posts.html",
-    "title": "Your Name",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
     "section": "",
-    "text": "layout: page\ntitle: “All Posts”\npermalink: /posts/\n\n\n{{ post.title }} — {{ post.date | date: “%Y-%m-%d” }}"
+    "text": "👋 Welcome\nHi, I’m Your Name.\nThis site blends my professional research with personal reflections:\n\n📚 Research in finance, stochastic control, ML\n\n📝 Writings on AI, strategy, decision systems\n\n✒️ Drafts for ongoing book projects\n\nStart exploring: Blog, Notes, Publications, CV."
   }
 ]
