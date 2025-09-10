@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Your Name"
-  site-url: https://yourusername.github.io/my-quarto-site
+  site-url: https://joakft.github.io
   navbar:
     left:
       - href: index.qmd
