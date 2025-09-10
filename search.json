@@ -11,14 +11,14 @@
     "href": "cv.html#nubank-data-science-lead-business-analytics-manager-2019present",
     "title": "Joaquín Fernández Tapia",
     "section": "Nubank — Data Science Lead & Business Analytics Manager (2019–Present)",
-    "text": "Nubank — Data Science Lead & Business Analytics Manager (2019–Present)\nFraud & Collections Decision Analytics\n- Led policy design for fraud defenses and KYC identity verification (1.5M+ applications/month).\n- Balanced decision trade-offs across risk, customer experience, and operations.\n- Introduced uplift modeling for collections and agency optimization.\n- Embedded experimentation into debt recovery and credit risk decisioning.\nML Decision Platforms\n- Designed streaming pipelines and modular ML-driven decision systems serving 100M+ clients.\n- Developed orchestrated fraud defenses combining models, rules, and business guardrails.\n- Built feedback-loop evaluation frameworks enabling continuous learning and proactive detection.\n- Defined standards for reproducibility, experimentation, and governance; mentored DS/analytics teams."
+    "text": "Nubank — Data Science Lead & Business Analytics Manager (2019–Present)\nFraud Platforms (Decision Intelligence) (2024-Present)\n- Designed streaming pipelines and modular ML-driven decision systems serving 100M+ clients.\n- Developed orchestrated fraud defenses combining models, rules, and business guardrails.\n- Built feedback-loop evaluation frameworks enabling continuous learning and proactive detection.\n- Defined standards for reproducibility, experimentation, and governance; mentored DS/analytics teams.\nFraud & Collections Business Analytics (2020-2023)\n- Led policy design for fraud defenses and KYC identity verification (1.5M+ applications/month).\n- Balanced decision trade-offs across risk, customer experience, and operations.\n- Introduced uplift modeling for collections and agency optimization.\n- Embedded experimentation into debt recovery and credit risk decisioning."
   },
   {
     "objectID": "cv.html#hsbc-quantitative-researcher-trading-market-microstructure-20172019",
     "href": "cv.html#hsbc-quantitative-researcher-trading-market-microstructure-20172019",
     "title": "Joaquín Fernández Tapia",
     "section": "HSBC — Quantitative Researcher, Trading & Market Microstructure (2017–2019)",
-    "text": "HSBC — Quantitative Researcher, Trading & Market Microstructure (2017–2019)\n\nDesigned reinforcement learning algorithms for portfolio execution and liquidation strategies.\n\nModeled order-book dynamics with deep learning and statistical methods.\n\nDelivered simulation-driven validation of trading policies under real-time constraints."
+    "text": "HSBC — Quantitative Researcher, Trading & Market Microstructure (2017–2019)\n\nDesigned reinforcement learning algorithms for portfolio execution and liquidation strategies.\n\nSysnthetic data generation with deep learning for scenario simulation.\n\nOptimization of hedging algorithms with stochastic control methods."
   },
   {
     "objectID": "cv.html#tradelab-optimization-scientistengineer-ad-tech-20142016",
