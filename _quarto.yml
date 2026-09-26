@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Joakim F."
+  description: "Applied mathematician & analytics/ML professional — research notes on optimization, control and experimentation."
+  favicon: images/favicon.svg
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - text: "Profile"
+        href: index.qmd
+      - text: "Projects & Articles"
+        href: projects.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "Links"
+        href: links.qmd
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Joakim F."
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    css: styles.css
+    toc: false
+    grid:
+      body-width: 900px
+    fontsize: 1.05rem
+    linkcolor: "#3b5bdb"
+
+execute:
+  freeze: auto

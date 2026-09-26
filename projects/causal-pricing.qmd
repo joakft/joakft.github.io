@@ -1,0 +1,30 @@
+---
+title: "Causal Inference for Pricing Decisions"
+subtitle: "Separating correlation from what a price change actually does to demand."
+date: 2026-03-10
+image: ../images/project-causal.svg
+categories: [causal-inference, modeling]
+description: "How to use a simple DAG to avoid the most common confounding mistake in pricing analysis."
+---
+
+![](../images/project-causal.svg){fig-align="center" width=70%}
+
+*Replace this with your real write-up. Suggested shape below.*
+
+## The problem
+
+The naive correlation everyone gets tempted by (e.g. "higher prices,
+higher revenue") and why it's confounded.
+
+## The core idea
+
+The DAG above: identify the confounder, pick the identification strategy
+(instrument, matching, diff-in-diff, whatever you actually used).
+
+## Why it matters in practice
+
+What decision this changed, and what it would have cost to get wrong.
+
+## Further reading
+
+- [Replace: link to the full PDF / paper / notes](#)

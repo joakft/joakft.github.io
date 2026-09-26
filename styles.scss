@@ -1,0 +1,12 @@
+/*-- scss:defaults --*/
+$primary: #3b5bdb;
+$body-color: #212529;
+$link-color: $primary;
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+$headings-font-weight: 700;
+$border-radius: 12px;
+
+/*-- scss:rules --*/
+.navbar {
+  border-bottom: 1px solid #e9ecef;
+}

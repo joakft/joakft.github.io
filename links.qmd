@@ -1,0 +1,23 @@
+---
+title: "Links"
+subtitle: "Papers, tools and people worth pointing to."
+title-block-banner: false
+---
+
+### Publications & preprints
+
+- [Replace: Paper title](#) — venue, year
+- [Replace: Preprint title](#) — arXiv, year
+
+### Talks
+
+- [Replace: Talk title](#) — conference, year
+
+### Tools & code
+
+- [GitHub profile](https://github.com/your-handle)
+
+### Elsewhere
+
+- [LinkedIn](https://linkedin.com/in/your-handle)
+- [Google Scholar](#)

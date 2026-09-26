@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#eef1fb"/>
+  <line x1="60" y1="330" x2="560" y2="330" stroke="#c1c9e6" stroke-width="2"/>
+  <line x1="60" y1="60" x2="60" y2="330" stroke="#c1c9e6" stroke-width="2"/>
+  <path d="M60 260 C 140 240, 160 180, 210 200 S 300 260, 340 150 S 420 120, 460 90 S 520 60, 550 70"
+        fill="none" stroke="#3b5bdb" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 280 C 130 270, 180 300, 230 250 S 320 200, 360 230 S 440 260, 470 210 S 530 170, 550 190"
+        fill="none" stroke="#12b886" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <line x1="460" y1="60" x2="460" y2="330" stroke="#495057" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="460" cy="90" r="7" fill="#e03131"/>
+  <text x="470" y="55" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#495057">stopping time</text>
+</svg>

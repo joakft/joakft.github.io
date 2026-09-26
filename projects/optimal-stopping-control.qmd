@@ -1,0 +1,32 @@
+---
+title: "Optimal Stopping in Stochastic Control"
+subtitle: "When to act under uncertainty, and how to prove it's the right time."
+date: 2026-01-15
+image: ../images/project-stochastic.svg
+categories: [stochastic-control, optimization]
+description: "A worked introduction to optimal stopping problems, from the Snell envelope to a practical decision rule."
+---
+
+![](../images/project-stochastic.svg){fig-align="center" width=70%}
+
+*Replace this with your real write-up. Suggested shape below.*
+
+## The problem
+
+One or two paragraphs: what decision are you modeling as a stopping
+problem (e.g. when to exercise an option, when to stop an experiment,
+when to intervene on a degrading system)?
+
+## The core idea
+
+Introduce the key mathematical object (Snell envelope, value function,
+free boundary) with **one clear diagram** — the illustration above is a
+placeholder for that.
+
+## Why it matters in practice
+
+Connect back to a real decision you or a team actually had to make.
+
+## Further reading
+
+- [Replace: link to the full PDF / paper / notes](#)

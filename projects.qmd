@@ -1,0 +1,14 @@
+---
+title: "Projects & Articles"
+subtitle: "Distilled write-ups of things I've built, researched or figured out."
+listing:
+  contents: projects
+  type: grid
+  grid-columns: 3
+  image-height: 160px
+  sort: "date desc"
+  categories: true
+  fields: [image, title, subtitle, date, categories]
+page-layout: full
+title-block-banner: false
+---

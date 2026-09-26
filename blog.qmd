@@ -1,0 +1,12 @@
+---
+title: "Blog"
+subtitle: "Occasional, unpolished notes — not the main event, just things worth writing down."
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: false
+  fields: [title, date, description]
+page-layout: article
+title-block-banner: false
+---

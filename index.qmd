@@ -1,0 +1,54 @@
+---
+title: "Joakim F."
+image: images/avatar.svg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/your-handle
+    - icon: github
+      text: GitHub
+      href: https://github.com/your-handle
+    - icon: envelope
+      text: Email
+      href: mailto:joakft@gmail.com
+    - icon: file-earmark-pdf
+      text: Download CV
+      href: files/cv.pdf
+---
+
+## About
+
+I'm an applied mathematician working at the intersection of **analytics,
+data science and machine learning**, with a research background in
+**stochastic algorithms and control theory**. Staff/manager-level
+experience in consumer tech as a business analyst and data analyst,
+building experimentation, optimization and modeling systems that hold up
+both mathematically and in production.
+
+I write up the technical notes I keep for myself — on experimentation
+design, optimization and stochastic modeling — when they turn out useful
+enough to share. See [Projects & Articles](projects.qmd) for the polished
+ones and [Blog](blog.qmd) for looser, occasional notes.
+
+## Experience
+
+**Staff / Manager, Analytics & Data Science** · Consumer Tech
+*(replace with your real role, company, dates)*
+
+- Led experimentation strategy and causal measurement for [replace: product area]
+- Built optimization / decisioning systems used by [replace: team or scale]
+- Mentored analysts and data scientists at IC and lead level
+
+**Research** · Stochastic Algorithms & Control
+*(replace with your real institution / advisor / years)*
+
+- Research on [replace: topic — e.g. stochastic approximation, optimal control]
+- Published / presented work on [replace: venue]
+
+## Education
+
+**PhD / MSc in Applied Mathematics** *(replace)* — Institution, Year

@@ -1,0 +1,30 @@
+---
+title: "Designing an Experimentation Platform"
+subtitle: "Sequential testing, guardrail metrics, and where most A/B pipelines quietly lie to you."
+date: 2026-02-20
+image: ../images/project-experimentation.svg
+categories: [experimentation, causal-inference]
+description: "Lessons from building and running an internal experimentation platform at scale."
+---
+
+![](../images/project-experimentation.svg){fig-align="center" width=70%}
+
+*Replace this with your real write-up. Suggested shape below.*
+
+## The problem
+
+What was broken about the naive A/B setup (peeking, multiple comparisons,
+novelty effects, etc.)?
+
+## The core idea
+
+The one diagram/concept that fixes it — sequential testing boundary,
+CUPED variance reduction, guardrail metric design.
+
+## Why it matters in practice
+
+The concrete before/after: decisions that changed, false positives avoided.
+
+## Further reading
+
+- [Replace: link to the full PDF / paper / notes](#)

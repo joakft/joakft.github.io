@@ -1,0 +1,12 @@
+---
+title: "A quick note on variance reduction"
+date: 2026-04-02
+description: "A short, informal note — not a full article, just something worth writing down."
+---
+
+*Replace with your real content. Blog posts stay plain — no listing image,
+no forced structure — this is the low-effort outlet, the Projects &
+Articles page is where the polished work lives.*
+
+Just write. Keep it short. Link out to a project page or a paper if it
+grew into something bigger.
