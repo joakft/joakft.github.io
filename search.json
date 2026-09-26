@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "posts/example-post.html",
+    "href": "posts/example-post.html",
+    "title": "A quick note on variance reduction",
+    "section": "",
+    "text": "Replace with your real content. Blog posts stay plain — no listing image, no forced structure — this is the low-effort outlet, the Projects & Articles page is where the polished work lives.\nJust write. Keep it short. Link out to a project page or a paper if it grew into something bigger."
+  },
+  {
+    "objectID": "projects/optimal-stopping-control.html",
+    "href": "projects/optimal-stopping-control.html",
+    "title": "Optimal Stopping in Stochastic Control",
+    "section": "",
+    "text": "Replace this with your real write-up. Suggested shape below."
+  },
+  {
+    "objectID": "projects/optimal-stopping-control.html#the-problem",
+    "href": "projects/optimal-stopping-control.html#the-problem",
+    "title": "Optimal Stopping in Stochastic Control",
+    "section": "The problem",
+    "text": "The problem\nOne or two paragraphs: what decision are you modeling as a stopping problem (e.g. when to exercise an option, when to stop an experiment, when to intervene on a degrading system)?"
+  },
+  {
+    "objectID": "projects/optimal-stopping-control.html#the-core-idea",
+    "href": "projects/optimal-stopping-control.html#the-core-idea",
+    "title": "Optimal Stopping in Stochastic Control",
+    "section": "The core idea",
+    "text": "The core idea\nIntroduce the key mathematical object (Snell envelope, value function, free boundary) with one clear diagram — the illustration above is a placeholder for that."
+  },
+  {
+    "objectID": "projects/optimal-stopping-control.html#why-it-matters-in-practice",
+    "href": "projects/optimal-stopping-control.html#why-it-matters-in-practice",
+    "title": "Optimal Stopping in Stochastic Control",
+    "section": "Why it matters in practice",
+    "text": "Why it matters in practice\nConnect back to a real decision you or a team actually had to make."
+  },
+  {
+    "objectID": "projects/optimal-stopping-control.html#further-reading",
+    "href": "projects/optimal-stopping-control.html#further-reading",
+    "title": "Optimal Stopping in Stochastic Control",
+    "section": "Further reading",
+    "text": "Further reading\n\nReplace: link to the full PDF / paper / notes"
+  },
+  {
+    "objectID": "projects/causal-pricing.html",
+    "href": "projects/causal-pricing.html",
+    "title": "Causal Inference for Pricing Decisions",
+    "section": "",
+    "text": "Replace this with your real write-up. Suggested shape below."
+  },
+  {
+    "objectID": "projects/causal-pricing.html#the-problem",
+    "href": "projects/causal-pricing.html#the-problem",
+    "title": "Causal Inference for Pricing Decisions",
+    "section": "The problem",
+    "text": "The problem\nThe naive correlation everyone gets tempted by (e.g. “higher prices, higher revenue”) and why it’s confounded."
+  },
+  {
+    "objectID": "projects/causal-pricing.html#the-core-idea",
+    "href": "projects/causal-pricing.html#the-core-idea",
+    "title": "Causal Inference for Pricing Decisions",
+    "section": "The core idea",
+    "text": "The core idea\nThe DAG above: identify the confounder, pick the identification strategy (instrument, matching, diff-in-diff, whatever you actually used)."
+  },
+  {
+    "objectID": "projects/causal-pricing.html#why-it-matters-in-practice",
+    "href": "projects/causal-pricing.html#why-it-matters-in-practice",
+    "title": "Causal Inference for Pricing Decisions",
+    "section": "Why it matters in practice",
+    "text": "Why it matters in practice\nWhat decision this changed, and what it would have cost to get wrong."
+  },
+  {
+    "objectID": "projects/causal-pricing.html#further-reading",
+    "href": "projects/causal-pricing.html#further-reading",
+    "title": "Causal Inference for Pricing Decisions",
+    "section": "Further reading",
+    "text": "Further reading\n\nReplace: link to the full PDF / paper / notes"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "A quick note on variance reduction\n\n\nA short, informal note — not a full article, just something worth writing down.\n\n\n\n\n\nApr 2, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
+    "section": "",
+    "text": "Publications & preprints\n\nReplace: Paper title — venue, year\nReplace: Preprint title — arXiv, year\n\n\n\nTalks\n\nReplace: Talk title — conference, year\n\n\n\nTools & code\n\nGitHub profile\n\n\n\nElsewhere\n\nLinkedIn\nGoogle Scholar"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects & Articles",
+    "section": "",
+    "text": "Causal Inference for Pricing Decisions\n\n\nSeparating correlation from what a price change actually does to demand.\n\n\n\ncausal-inference\n\nmodeling\n\n\n\n\nMar 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesigning an Experimentation Platform\n\n\nSequential testing, guardrail metrics, and where most A/B pipelines quietly lie to you.\n\n\n\nexperimentation\n\ncausal-inference\n\n\n\n\nFeb 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOptimal Stopping in Stochastic Control\n\n\nWhen to act under uncertainty, and how to prove it’s the right time.\n\n\n\nstochastic-control\n\noptimization\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/experimentation-platform.html",
+    "href": "projects/experimentation-platform.html",
+    "title": "Designing an Experimentation Platform",
+    "section": "",
+    "text": "Replace this with your real write-up. Suggested shape below."
+  },
+  {
+    "objectID": "projects/experimentation-platform.html#the-problem",
+    "href": "projects/experimentation-platform.html#the-problem",
+    "title": "Designing an Experimentation Platform",
+    "section": "The problem",
+    "text": "The problem\nWhat was broken about the naive A/B setup (peeking, multiple comparisons, novelty effects, etc.)?"
+  },
+  {
+    "objectID": "projects/experimentation-platform.html#the-core-idea",
+    "href": "projects/experimentation-platform.html#the-core-idea",
+    "title": "Designing an Experimentation Platform",
+    "section": "The core idea",
+    "text": "The core idea\nThe one diagram/concept that fixes it — sequential testing boundary, CUPED variance reduction, guardrail metric design."
+  },
+  {
+    "objectID": "projects/experimentation-platform.html#why-it-matters-in-practice",
+    "href": "projects/experimentation-platform.html#why-it-matters-in-practice",
+    "title": "Designing an Experimentation Platform",
+    "section": "Why it matters in practice",
+    "text": "Why it matters in practice\nThe concrete before/after: decisions that changed, false positives avoided."
+  },
+  {
+    "objectID": "projects/experimentation-platform.html#further-reading",
+    "href": "projects/experimentation-platform.html#further-reading",
+    "title": "Designing an Experimentation Platform",
+    "section": "Further reading",
+    "text": "Further reading\n\nReplace: link to the full PDF / paper / notes"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joakim F.",
+    "section": "",
+    "text": "I’m an applied mathematician working at the intersection of analytics, data science and machine learning, with a research background in stochastic algorithms and control theory. Staff/manager-level experience in consumer tech as a business analyst and data analyst, building experimentation, optimization and modeling systems that hold up both mathematically and in production.\nI write up the technical notes I keep for myself — on experimentation design, optimization and stochastic modeling — when they turn out useful enough to share. See Projects & Articles for the polished ones and Blog for looser, occasional notes."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Joakim F.",
+    "section": "",
+    "text": "I’m an applied mathematician working at the intersection of analytics, data science and machine learning, with a research background in stochastic algorithms and control theory. Staff/manager-level experience in consumer tech as a business analyst and data analyst, building experimentation, optimization and modeling systems that hold up both mathematically and in production.\nI write up the technical notes I keep for myself — on experimentation design, optimization and stochastic modeling — when they turn out useful enough to share. See Projects & Articles for the polished ones and Blog for looser, occasional notes."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Joakim F.",
+    "section": "Experience",
+    "text": "Experience\nStaff / Manager, Analytics & Data Science · Consumer Tech (replace with your real role, company, dates)\n\nLed experimentation strategy and causal measurement for [replace: product area]\nBuilt optimization / decisioning systems used by [replace: team or scale]\nMentored analysts and data scientists at IC and lead level\n\nResearch · Stochastic Algorithms & Control (replace with your real institution / advisor / years)\n\nResearch on [replace: topic — e.g. stochastic approximation, optimal control]\nPublished / presented work on [replace: venue]"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Joakim F.",
+    "section": "Education",
+    "text": "Education\nPhD / MSc in Applied Mathematics (replace) — Institution, Year"
+  }
+]

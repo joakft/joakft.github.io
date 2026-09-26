@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#eef1fb"/>
+  <!-- confounder -->
+  <circle cx="300" cy="90" r="30" fill="#495057"/>
+  <text x="300" y="96" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle">Z</text>
+  <!-- treatment -->
+  <circle cx="150" cy="260" r="30" fill="#3b5bdb"/>
+  <text x="150" y="266" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle">T</text>
+  <!-- outcome -->
+  <circle cx="450" cy="260" r="30" fill="#12b886"/>
+  <text x="450" y="266" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle">Y</text>
+  <!-- arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#495057"/>
+    </marker>
+  </defs>
+  <line x1="278" y1="110" x2="172" y2="238" stroke="#495057" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="322" y1="110" x2="428" y2="238" stroke="#495057" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="180" y1="260" x2="420" y2="260" stroke="#3b5bdb" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="300" y="300" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3b5bdb" text-anchor="middle">effect of interest</text>
+</svg>

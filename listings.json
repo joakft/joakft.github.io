@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/example-post.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/causal-pricing.html",
+      "/projects/experimentation-platform.html",
+      "/projects/optimal-stopping-control.html"
+    ]
+  }
+]

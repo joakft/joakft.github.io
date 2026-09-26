@@ -1,0 +1,36 @@
+/* Listing cards (Projects & Articles grid) */
+.quarto-grid-item {
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  background: #fff;
+}
+.quarto-grid-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(59, 91, 219, 0.14);
+}
+.quarto-grid-item .card-img-top {
+  padding: 0;
+}
+.quarto-grid-item .listing-categories .listing-category {
+  background: #eef1fb;
+  color: #3b5bdb;
+  border: none;
+}
+
+/* About page (profile) */
+.about-entity .about-links .about-link {
+  border-color: #3b5bdb;
+  color: #3b5bdb;
+}
+.about-entity .about-links .about-link:hover {
+  background: #3b5bdb;
+  color: #fff;
+}
+
+/* Blog listing: keep it deliberately plain/low-key */
+#quarto-content .quarto-listing-default .listing-item {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #f1f3f5;
+}
