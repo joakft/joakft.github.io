@@ -1,23 +1,26 @@
 ---
 title: "Links"
-subtitle: "Papers, tools and people worth pointing to."
+subtitle: "Publications and places to find me elsewhere."
 title-block-banner: false
 ---
 
-### Publications & preprints
+### Publications
 
-- [Replace: Paper title](#) — venue, year
-- [Replace: Preprint title](#) — arXiv, year
+::: {.pub-list}
+- [**Optimal portfolio liquidation with limit orders**]{.pub-title} <br>
+  [Stochastic control approach to execution under market impact and timing risk.]{.pub-meta}
+- [**Statistical modeling of Vickrey auctions and applications to automated bidding strategies**]{.pub-title} <br>
+  [Applied to real-time bidding and programmatic advertising.]{.pub-meta}
+- [**Dealing with the inventory risk: a solution to the market making problem**]{.pub-title} <br>
+  [Peer-reviewed; joint work from the Kepler Cheuvreux / HSBC research period.]{.pub-meta}
+- [**An analytical solution to the budget-pacing problem in programmatic advertising**]{.pub-title} <br>
+  [Foundational framework for ROI-vs-spend optimization in ad-tech.]{.pub-meta}
+:::
 
-### Talks
-
-- [Replace: Talk title](#) — conference, year
-
-### Tools & code
-
-- [GitHub profile](https://github.com/your-handle)
+*(Links to full papers coming soon — ask if you'd like a copy in the meantime.)*
 
 ### Elsewhere
 
-- [LinkedIn](https://linkedin.com/in/your-handle)
-- [Google Scholar](#)
+- [LinkedIn](https://www.linkedin.com/in/joaquinfernandez-tapia-07493b199)
+- [GitHub](https://github.com/joakft)
+- [Email](mailto:joakft@gmail.com)

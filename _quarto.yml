@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Joakim F."
+  title: "Joaquin Fernandez Tapia"
   description: "Applied mathematician & analytics/ML professional — research notes on optimization, control and experimentation."
   favicon: images/favicon.svg
   navbar:
@@ -20,13 +20,13 @@ website:
         href: links.qmd
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/joakft
         aria-label: GitHub
       - icon: linkedin
-        href: https://linkedin.com/
+        href: https://www.linkedin.com/in/joaquinfernandez-tapia-07493b199
         aria-label: LinkedIn
   page-footer:
-    left: "© 2026 Joakim F."
+    left: "© 2026 Joaquin Fernandez Tapia"
     right: "Built with [Quarto](https://quarto.org)"
 
 format:

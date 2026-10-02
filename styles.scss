@@ -1,12 +1,20 @@
 /*-- scss:defaults --*/
-$primary: #3b5bdb;
-$body-color: #212529;
+$primary: #c2186b;
+$body-color: #28282f;
 $link-color: $primary;
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
 $headings-font-weight: 700;
-$border-radius: 12px;
+$border-radius: 10px;
 
 /*-- scss:rules --*/
 .navbar {
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid #ececec;
+}
+.navbar-brand {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.nav-link.active {
+  color: $primary !important;
+  font-weight: 600;
 }
