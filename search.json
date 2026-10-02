@@ -88,7 +88,7 @@
     "href": "links.html",
     "title": "Links",
     "section": "",
-    "text": "Publications & preprints\n\nReplace: Paper title — venue, year\nReplace: Preprint title — arXiv, year\n\n\n\nTalks\n\nReplace: Talk title — conference, year\n\n\n\nTools & code\n\nGitHub profile\n\n\n\nElsewhere\n\nLinkedIn\nGoogle Scholar"
+    "text": "Publications\n\n\nOptimal portfolio liquidation with limit orders  Stochastic control approach to execution under market impact and timing risk.\nStatistical modeling of Vickrey auctions and applications to automated bidding strategies  Applied to real-time bidding and programmatic advertising.\nDealing with the inventory risk: a solution to the market making problem  Peer-reviewed; joint work from the Kepler Cheuvreux / HSBC research period.\nAn analytical solution to the budget-pacing problem in programmatic advertising  Foundational framework for ROI-vs-spend optimization in ad-tech.\n\n\n(Links to full papers coming soon — ask if you’d like a copy in the meantime.)\n\n\nElsewhere\n\nLinkedIn\nGitHub\nEmail"
   },
   {
     "objectID": "projects.html",
@@ -135,29 +135,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Joakim F.",
+    "title": "Joaquin Fernandez Tapia",
     "section": "",
-    "text": "I’m an applied mathematician working at the intersection of analytics, data science and machine learning, with a research background in stochastic algorithms and control theory. Staff/manager-level experience in consumer tech as a business analyst and data analyst, building experimentation, optimization and modeling systems that hold up both mathematically and in production.\nI write up the technical notes I keep for myself — on experimentation design, optimization and stochastic modeling — when they turn out useful enough to share. See Projects & Articles for the polished ones and Blog for looser, occasional notes."
+    "text": "I work at the intersection of mathematics and practical decision-making under uncertainty. My experience spans quantitative finance, real-time bidding, credit, fraud, and business performance — covering stochastic modelling, forecasting, experimentation, and policy design.\nI write up the technical notes I keep for myself — on experimentation design, optimization and stochastic modeling — when they turn out useful enough to share. See Projects & Articles for the polished ones and Blog for looser, occasional notes."
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
-    "title": "Joakim F.",
+    "title": "Joaquin Fernandez Tapia",
     "section": "",
-    "text": "I’m an applied mathematician working at the intersection of analytics, data science and machine learning, with a research background in stochastic algorithms and control theory. Staff/manager-level experience in consumer tech as a business analyst and data analyst, building experimentation, optimization and modeling systems that hold up both mathematically and in production.\nI write up the technical notes I keep for myself — on experimentation design, optimization and stochastic modeling — when they turn out useful enough to share. See Projects & Articles for the polished ones and Blog for looser, occasional notes."
+    "text": "I work at the intersection of mathematics and practical decision-making under uncertainty. My experience spans quantitative finance, real-time bidding, credit, fraud, and business performance — covering stochastic modelling, forecasting, experimentation, and policy design.\nI write up the technical notes I keep for myself — on experimentation design, optimization and stochastic modeling — when they turn out useful enough to share. See Projects & Articles for the polished ones and Blog for looser, occasional notes."
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Joakim F.",
+    "title": "Joaquin Fernandez Tapia",
     "section": "Experience",
-    "text": "Experience\nStaff / Manager, Analytics & Data Science · Consumer Tech (replace with your real role, company, dates)\n\nLed experimentation strategy and causal measurement for [replace: product area]\nBuilt optimization / decisioning systems used by [replace: team or scale]\nMentored analysts and data scientists at IC and lead level\n\nResearch · Stochastic Algorithms & Control (replace with your real institution / advisor / years)\n\nResearch on [replace: topic — e.g. stochastic approximation, optimal control]\nPublished / presented work on [replace: venue]"
+    "text": "Experience\nLead Core Data Analytics · Betclic Group — France January 2026 – Present\n\nBuilt a reusable performance-analytics and forecasting capability, establishing an explainable business-as-usual baseline from seasonal patterns and sports-calendar data.\nPiloting a shared performance-review operating model with an analytics team to validate the framework and clarify decision ownership.\nLeading a company-wide experimentation workstream — governance and tooling recommendations.\n\nLead Data Scientist, Fraud Platforms · Nubank — São Paulo, Brazil November 2023 – October 2025\n\nLed a from-scratch initiative to redesign how fraud features and analytics were developed and delivered across Data Science, platform teams, and internal users.\nReframed a graph-analytics platform into a production system for fraud-model features and policies.\nIntroduced embedding-based detection to surface emerging fraud patterns earlier.\n\nLead Business Analyst, Fraud Defenses · Nubank — São Paulo, Brazil May 2021 – October 2023\n\nOwned fraud policy across onboarding and transactional fraud, balancing losses against customer friction and operational cost.\nLed the transition to real-time policy, migrating rules and models to transaction time.\nLed business-risk evaluation and policy strategy for identity verification (face match, liveness, A/B testing).\n\nLead Business Analyst, Credit Collections · Nubank — São Paulo, Brazil November 2019 – April 2021\n\nBuilt communications, campaign and offer strategy across the debt-collections journey.\nRan controlled A/B experiments on communication journeys and pricing; led uplift modeling.\nLed analytics for collections policy — KPIs, roll-rate monitoring, cohort analysis, survival curves.\n\nQuantitative Research · HSBC — Paris September 2017 – September 2019\n\nApplied reinforcement learning to optimal execution (tactical limit- and market-order placement).\nDeveloped a generative model for financial time-series simulation.\nStudied hedging under transaction costs; contributed to a peer-reviewed publication.\n\nQuantitative Analyst, Programmatic Advertising · Tradelab — Paris July 2014 – September 2016\n\nDesigned an automated campaign-management system for ad-buying prices, budget pacing and allocation.\nImplemented a multi-armed bandit algorithm in production for real-time campaign optimization.\n\nQuantitative Research · Kepler Cheuvreux — Paris September 2011 – September 2014\n\nModelled optimal execution and market making using stochastic control, with explicit trade-offs among market impact, inventory risk and timing risk.\nStatistical analysis of market-microstructure and order-book data."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Joakim F.",
+    "title": "Joaquin Fernandez Tapia",
     "section": "Education",
-    "text": "Education\nPhD / MSc in Applied Mathematics (replace) — Institution, Year"
+    "text": "Education\nPhD, Mathematical Statistics and Probability — Université Pierre et Marie Curie (2011 – 2014)\nEngineering Diploma, MS in Quantitative Finance (El Karoui) — École Polytechnique (2007 – 2010)\nBS, Mathematics — Pontificia Universidad Católica de Chile (2003 – 2006)"
+  },
+  {
+    "objectID": "index.html#languages",
+    "href": "index.html#languages",
+    "title": "Joaquin Fernandez Tapia",
+    "section": "Languages",
+    "text": "Languages\nEnglish (Full Professional) · French (Full Professional) · Portuguese (Professional Working) · Spanish (Native)"
   }
 ]

@@ -8,24 +8,24 @@
 }
 .quarto-grid-item:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 28px rgba(59, 91, 219, 0.14);
+  box-shadow: 0 10px 28px rgba(194, 24, 107, 0.14);
 }
 .quarto-grid-item .card-img-top {
   padding: 0;
 }
 .quarto-grid-item .listing-categories .listing-category {
-  background: #eef1fb;
-  color: #3b5bdb;
+  background: #fbe7f1;
+  color: #c2186b;
   border: none;
 }
 
 /* About page (profile) */
 .about-entity .about-links .about-link {
-  border-color: #3b5bdb;
-  color: #3b5bdb;
+  border-color: #c2186b;
+  color: #c2186b;
 }
 .about-entity .about-links .about-link:hover {
-  background: #3b5bdb;
+  background: #c2186b;
   color: #fff;
 }
 
@@ -33,4 +33,49 @@
 #quarto-content .quarto-listing-default .listing-item {
   padding: 0.6rem 0;
   border-bottom: 1px solid #f1f3f5;
+}
+
+/* Big al-folio-style name heading on the profile page */
+.about-entity .about-contents h1.title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.1rem;
+}
+.about-entity .about-contents .quarto-title-banner,
+.about-entity .about-contents p.subtitle {
+  color: #6c6c74;
+  font-size: 1.1rem;
+}
+.about-entity .about-contents h2 {
+  margin-top: 2.2rem;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 0.4rem;
+}
+
+/* Publications list (Links page) — al-folio style entries */
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pub-list li {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid #f1f3f5;
+}
+.pub-list .pub-title {
+  font-weight: 600;
+  color: #28282f;
+}
+.pub-list .pub-meta {
+  color: #9a9aa2;
+  font-size: 0.9rem;
+}
+.pub-year {
+  color: #c7c7cf;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 1.6rem 0 0.2rem;
 }
